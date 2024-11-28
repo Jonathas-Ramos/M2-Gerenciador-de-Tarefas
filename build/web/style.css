@@ -1,0 +1,67 @@
+/* Reset básico */
+body, h2, h3, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea; /* Fundo cinza claro */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #0056b3;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo geral do contêiner */
+.tarefas {
+    background-color: #f9f9f9; /* Cor de fundo */
+    border: 2px solid #ddd; /* Borda ao redor do menu */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 20px; /* Espaçamento interno */
+    max-width: 400px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza o menu */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+}
+
+/* Estilo do título */
+.tarefas h2 {
+    font-size: 1.5em; /* Tamanho da fonte */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    text-align: center; /* Centraliza o texto */
+    color: #333; /* Cor do texto */
+    font-family: 'Arial', sans-serif; /* Fonte do título */
+}
+
+/* Estilo da lista */
+.tarefas li {
+    list-style-type: none; /* Remove marcadores padrão */
+    margin: 10px 0; /* Espaçamento entre itens */
+}
+
+/* Estilo dos links */
+.tarefas a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #007BFF; /* Cor azul padrão */
+    font-weight: bold; /* Texto em negrito */
+    font-family: 'Arial', sans-serif; /* Fonte do texto */
+    padding: 10px; /* Espaçamento interno */
+    display: block; /* Torna o link clicável em toda a linha */
+    border: 1px solid #007BFF; /* Borda em volta do link */
+    border-radius: 4px; /* Cantos arredondados */
+    transition: background-color 0.3s, color 0.3s; /* Animação para hover */
+}
+
+/* Estilo dos links ao passar o mouse */
+.tarefas a:hover {
+    background-color: #007BFF; /* Cor de fundo azul ao passar o mouse */
+    color: #fff; /* Cor do texto branca */
+}
