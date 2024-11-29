@@ -1,9 +1,3 @@
-<%-- 
-    Document   : consPesqReg
-    Created on : 28 de out. de 2024, 20:25:41
-    Author     : alunocmc
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="model.Tarefa"%>
 <%@page import="model.dao.TarefaDAO"%>

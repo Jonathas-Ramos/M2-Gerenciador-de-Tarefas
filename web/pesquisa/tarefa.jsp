@@ -21,17 +21,6 @@
         out.println(String.format("Nome: %s<br>Descrição: %s<br>Dificuldade: %s<br>Responsável: %s<br>",
                                  nome, descricao, dificuldade, responsavel));
         
-        
-        // Receber os parâmetros da requisição
-        
-
-        // Usando String.format para formatar a saída
-        
-
-
-        
-        
-     
             // Criar uma instância de Tarefa e atribuir os valores
             Tarefa tare = new Tarefa();
             tare.setNome(nome);

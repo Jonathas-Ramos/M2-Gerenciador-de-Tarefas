@@ -1,9 +1,3 @@
-<%-- 
-    Document   : pesquisa
-    Created on : 24 de out. de 2024, 21:03:29
-    Author     : alunocmc
---%>
-
 <%@page import="java.util.Date"%>
 <%@page import="java.text.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

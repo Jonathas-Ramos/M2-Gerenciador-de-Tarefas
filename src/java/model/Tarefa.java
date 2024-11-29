@@ -51,11 +51,11 @@ public class Tarefa {
     public String getDescricao() {
         return descricao;
     }
-
+    
     public String getDificuldade() {
         return dificuldade;
     }
-
+    
     public String getResponsavel() {
         return responsavel;
     }

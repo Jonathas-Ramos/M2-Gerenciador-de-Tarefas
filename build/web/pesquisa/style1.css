@@ -1,4 +1,4 @@
-/* Estilo geral do contêiner do formulário */
+
 .index-1 {
     background-color: #f9f9f9; /* Cor de fundo */
     border: 2px solid #ddd; /* Borda ao redor do formulário */
@@ -9,7 +9,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
 }
 
-/* Estilo do título do formulário */
+
 .title-name {
     font-size: 1.5em; /* Tamanho da fonte */
     margin-bottom: 15px; /* Espaço abaixo do título */
@@ -18,7 +18,7 @@
     font-family: 'Arial', sans-serif; /* Fonte do título */
 }
 
-/* Estilo dos campos de entrada */
+
 .index-1 input[type="text"] {
     width: calc(100% - 20px); /* Largura com espaçamento interno */
     padding: 8px 10px; /* Espaçamento interno */
@@ -30,7 +30,7 @@
     box-sizing: border-box; /* Inclui padding na largura */
 }
 
-/* Estilo do botão de envio */
+
 .index-1 input[type="submit"] {
     text-decoration: none; /* Remove sublinhado */
     color: #007BFF; /* Cor azul */
@@ -45,13 +45,13 @@
     transition: background-color 0.3s, color 0.3s; /* Animação suave */
 }
 
-/* Estilo do botão ao passar o mouse */
+
 .index-1 input[type="submit"]:hover {
     background-color: #007BFF; /* Fundo azul */
     color: #fff; /* Texto branco */
 }
 
-/* Estilo da imagem */
+
 .index-1 img {
     width: 100%; /* Largura total do contêiner */
     max-width: 350px; /* Tamanho máximo */
@@ -60,7 +60,6 @@
     border-radius: 4px; /* Cantos arredondados */
 }
 
-/* Espaçamento entre os parágrafos */
 .index-1 p {
     margin: 5px 0; /* Espaçamento vertical */
 }
